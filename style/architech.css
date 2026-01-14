@@ -8,3 +8,75 @@
   font-weight: 400;
   font-style: normal;
 }
+/* comon styles */
+.display-flex{
+    display: flex;
+}
+/* shared style */
+/* color2 */
+.color-2{
+    color: #424242;
+}
+/* color3 */
+.color-3{
+    color: #727272;
+}
+
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.btn{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 25px;
+}
+
+/* navbar styles */
+.navbar, .banner{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.brand{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner related styles */
+.banner-container{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.image-banner{
+    max-width: 100%;
+}
+
+/* responsive media quary */
+@media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
