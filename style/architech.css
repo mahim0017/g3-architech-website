@@ -152,6 +152,9 @@ main > section{
     color: white;
     
 }
+.experiance-architect{
+    width: 100%;
+}
 
 #sign{
     border-left:5px solid #FF900E ;
@@ -215,10 +218,15 @@ main > section{
 @media screen and (max-width:576px) {
     .navbar,
     .nav-links,
-    .teams {
+    .teams, 
+    .experiance {
         flex-direction: column;
     }
     .features{
+        margin-left: 20px;
+    }
+    .experiance-badge{
+        margin-top: 20px;
         margin-left: 20px;
     }
     .image-container{
